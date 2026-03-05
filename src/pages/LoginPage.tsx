@@ -5,7 +5,7 @@ export default function LoginPage() {
     return (
         <AuthLayout
             imageSrc={signInHero}
-            title="Pet Adoption Made Easy & Reliable!"
+            title="Pet Adoption Trusted and Transparent!"
             description="Human's need companionship & nature has provided us with friends in different forms & variety that we can love, cherish and get emotional support!"
         >
             <SignInForm />
