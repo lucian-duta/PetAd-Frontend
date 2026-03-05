@@ -26,26 +26,24 @@ function App() {
       <Route path="/forgot-password" element={<ForgetPasswordPage />} />
 
       {/* Main App Routes - With Navbar/Footer */}
-      <Route element={<MainLayout />}>
-        <Route path="/home" element={<HomePage />} />
-        <Route path="/profile" element={<ProfilePage />} />
-        <Route path="/favourites" element={<FavouritePage />} />
-        <Route path="/interests" element={<InterestPage />} />
-        <Route path="/listings" element={<ListingsPage />} />
-        <Route path="/notifications" element={<NotificationPage />} />
+      <Route element={<MainLayout />} />
+      <Route path="/home" element={<HomePage />} />
+      <Route path="/profile" element={<ProfilePage />} />
+      <Route path="/favourites" element={<FavouritePage />} />
+      <Route path="/interests" element={<InterestPage />} />
+      <Route path="/listings" element={<ListingsPage />} />
+      <Route path="/notifications" element={<NotificationPage />} />
 
-        {/* Preview Routes */}
-        <Route path="/preview-modal" element={<ModalPreview />} />
-        <Route path="/adoption-completion-demo" element={<AdoptionCompletionDemo />} />
+      {/* Preview Routes */}
+      {/* <Route path="/preview-modal" element={<ModalPreview />} /> */}
+      <Route path="/adoption-completion-demo" element={<AdoptionCompletionDemo />} />
 
-        {/* Test Route */}
-      </Routes>
-    </BrowserRouter>
-        <Route path="/listings/:id" element={<PetListingDetailsPage />} />
-        <Route path="/list-for-adoption" element={<EditAdoptionListing />} />
-        <Route path="/my-listings/:id" element={<ListingDetailsPage />} />
-      </Route>
+      {/* Test Route */}
+      <Route path="/listings/:id" element={<PetListingDetailsPage />} />
+      <Route path="/list-for-adoption" element={<EditAdoptionListing />} />
+      <Route path="/my-listings/:id" element={<ListingDetailsPage />} />
     </Routes>
+
   );
 }
 
