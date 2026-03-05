@@ -300,7 +300,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 🙏 Acknowledgments
 
-- Built with ❤️ for pet lovers everywhere
+- Built with ❤️ for pet lovers everywhere and me
 - Powered by blockchain technology for transparent, trustworthy pet adoption
 ---
 
